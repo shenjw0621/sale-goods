@@ -1,5 +1,9 @@
 package com.tt.sale.goods.dao.mapper;
 
-public interface AccountMapper {
+import com.tt.sale.goods.entity.Account;
 
+import java.util.List;
+
+public interface AccountMapper {
+    List<Account> selectAll();
 }
